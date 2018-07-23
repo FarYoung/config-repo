@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/fuhuagc?characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+env:
+  test2
