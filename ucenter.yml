@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ucenter
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+server:
+  port: 8081
+
+system:
+  datacenterId: 0
+  workerId: 0
